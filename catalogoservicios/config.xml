@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.example"
+    id        = "com.phonegap.catalogo"
     version   = "1.0.0">
 
-<name>PhoneGap Build Application</name>
+<name>Catalogo de Servicios</name>
+<icon src ="agenda.jpg" gap:platform="android" gap:density="ldpi"/>
 
 <description>
-A simple PhoneGap Build application.
+Lista de contactos de servicios
 </description>
-
-<author href="https://example.com" email="you@example.com">
-Your Name
+<peference name="permissions" value="none"/>
+<author href="https://example.com" email="jaimebast@hotmail.com">
+Jaime Bastidas
 </author>
 
 </widget>
